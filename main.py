@@ -5,7 +5,7 @@ from components.itinerary_display import display_itinerary
 from data.itinerary_data import itinerary
 
 # 設定頁面
-st.set_page_config(page_title="東京及石岡6日行程", page_icon="✈️", layout="wide")
+st.set_page_config(page_title="東京 ~ 茨城 6日行程", page_icon="✈️", layout="wide")
 
 # 取得可選擇的日期
 dates = list(itinerary.keys())
