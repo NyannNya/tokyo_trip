@@ -1,11 +1,11 @@
-# Tokyo & Ishioka 6-Day Itinerary Planner
+# Itinerary Planner
 
-這是一個基於 Streamlit 的旅遊行程規劃應用程式，主要用於展示東京及石岡的六日行程。使用者可以通過直觀的網頁介面查看每日的詳細行程。
+這是一個基於 Streamlit 的旅遊行程規劃應用程式，使用者可以通過直觀的網頁介面查看每日的詳細行程。
 
 ## 目錄結構
 
 ```
-tokyo_trip
+app
 ├── components
 │   ├── image_display.py
 │   ├── itinerary_display.py
@@ -37,14 +37,11 @@ tokyo_trip
 ### `components`
 - **`sidebar.py`**: 負責側邊欄的顯示和互動邏輯。
 - **`itinerary_display.py`**: 顯示每日行程詳細信息。
-- **`helpers.py` 和 `image_display.py`**: 提供一些工具函數及顯示圖像的功能（如果有必要）。
+- **``image_display.py`**: 提供一些工具函數及顯示圖像的功能。
 
 ### `data`
 - **`itinerary_data.py`**: 包含行程的數據，例如每一天的行程細節。
 - **`flight_data.py`**: 如果需要，則用於管理飛行計劃的相關數據。
-
-### `utils/helpers.py`
-這個模組包含了一些輔助功能，例如日期的處理和格式化。
 
 ### `requirements.txt`
 列出了專案所需的所有 Python 套件，例如 `streamlit`，確保所有依賴項都可以被順利安裝。
@@ -60,8 +57,8 @@ tokyo_trip
 ### 安裝步驟
 1. clone
    ```
-   git clone https://github.com/yourusername/tokyo_trip.git
-   cd tokyo_trip
+   git clone my-git-name.git
+   cd your-file
    ```
 2. insatll
    ```
@@ -73,16 +70,13 @@ tokyo_trip
    ```
 4. 若使用 Docker：
    ```
-   docker build -t tokyo_trip .
-   docker run -p 8501:8501 tokyo_trip
+   docker build -t your-app .
+   docker run -p 8501:8501 your-app
    ```
 
 ## 使用方式
 1. 開啟應用後，在頁面的左側可以看到日期的選擇欄。
 2. 選擇日期後，右側的主要區域會顯示該日的詳細行程。
-
-## 頁面配置
-應用頁面配置為寬屏模式，標題為"東京及石岡6日行程"，並有飛機圖示以突顯旅遊主題。
 
 ## 版權與授權
 本專案遵循 MIT 許可證，詳細請參閱 [LICENSE](./LICENSE) 文件。
