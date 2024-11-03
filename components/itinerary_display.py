@@ -35,7 +35,7 @@ def display_itinerary(date):
            
             # 顯示圖片
             if "file" in details:                
-                file = os.path.join(os.getcwd(), os.path.normpath(details["file"]))
+                file = os.path.join(os.getcwd(), "image", details["file"])
                 if os.path.isdir(file):
                     with st.expander("🖼️ 更多圖片", expanded=True):
                         st.markdown("<br>", unsafe_allow_html=True)
