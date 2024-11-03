@@ -14,7 +14,6 @@ def display_itinerary(date):
     st.subheader(f"{day_data['title']}")
     
     for period, details in day_data.items():
-        st.write("Current working directory:", os.getcwd())
         if period != "title":
             st.markdown(f"### {details['attraction']}")
             if "alias" in details:
@@ -37,7 +36,7 @@ def display_itinerary(date):
             # 顯示圖片
             if "file" in details:
                 if os.path.isdir(details.get("file")):
-                    file = os.path.normpath(details["file"])
+                    file = os.path.join(os.getcwd(), os.path.normpath(details["file"]))
                     with st.expander("🖼️ 更多圖片", expanded=True):
                         st.markdown("<br>", unsafe_allow_html=True)
                         display_images(file)
