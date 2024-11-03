@@ -14,6 +14,7 @@ def display_itinerary(date):
     st.subheader(f"{day_data['title']}")
     
     for period, details in day_data.items():
+        st.write("Current working directory:", os.getcwd())
         if period != "title":
             st.markdown(f"### {details['attraction']}")
             if "alias" in details:
