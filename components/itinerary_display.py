@@ -34,10 +34,12 @@ def display_itinerary(date):
                     st.write(details['description'])
            
             # 顯示圖片
-            if "file" in details:
-                if os.path.isdir(details.get("file")):
-                    file = os.path.join(os.getcwd(), os.path.normpath(details["file"]))
+            if "file" in details:                
+                file = os.path.join(os.getcwd(), os.path.normpath(details["file"]))
+                if os.path.isdir(file):
                     with st.expander("🖼️ 更多圖片", expanded=True):
                         st.markdown("<br>", unsafe_allow_html=True)
                         display_images(file)
+                else:
+                    st.error(f"File is not found : {file}")
             st.markdown("---")
