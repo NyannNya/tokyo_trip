@@ -36,7 +36,8 @@ def display_itinerary(date):
             # 顯示圖片
             if "file" in details:
                 if os.path.isdir(details.get("file")):
+                    file = os.path.normpath(details["file"])
                     with st.expander("🖼️ 更多圖片", expanded=True):
                         st.markdown("<br>", unsafe_allow_html=True)
-                        display_images(details.get("file"))
+                        display_images(file)
             st.markdown("---")

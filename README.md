@@ -7,7 +7,6 @@
 ```
 tokyo_trip
 ├── components
-│   ├── helpers.py
 │   ├── image_display.py
 │   ├── itinerary_display.py
 │   └── sidebar.py
@@ -19,9 +18,7 @@ tokyo_trip
 ├── LICENSE
 ├── main.py
 ├── README.md
-├── requirements.txt
-└── utils
-    └── helpers.py
+└── requirements.txt
 ```
 
 ## 功能概述

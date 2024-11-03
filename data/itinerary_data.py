@@ -99,7 +99,7 @@ itinerary = {
                     "➖ 墨田水族館: 主打為企鵝、水母、金魚、花園鰻\n\n" +
                     "➖ 東京晴空街道: https://www.tokyo-skytree.jp/en/ \n\n" +
                     "➖ 東京晴空塔: 東京晴空塔高塔高634公尺，被金氏世界紀錄認證為「世界第一高塔」\n\n" +
-                    "➖ 夢幻聖誕: https://tokyo.letsgojp.com/archives/704199\n\n" +                    
+                    "➖ 夢幻聖誕: https://tokyo.letsgojp.com/archives/704199\n\n" +
                 "美食: \n\n" +
                     "➖ 敘敘苑 晴空塔店: 高級燒肉餐廳\n\n" +
                     "➖ 六厘舍: 知名沾麵店，以濃郁的魚介豚骨湯頭聞名\n\n" +
@@ -168,14 +168,14 @@ itinerary = {
                     "➡➡ (轉車) 港未來線各站停車元町、中華街 13分 ➖ 元町、中華街 ➡➡ 山下公園 ➡➡ 橫濱紅磚倉庫 ➡➡ 橫濱",
             "description": 
                 "購物: \n\n" +
-                    "➖ 山下公園: 夜之橫濱燈光秀 https://yorunoyo.yokohama/\n\n" +                  
+                    "➖ 山下公園: 夜之橫濱燈光秀 https://yorunoyo.yokohama/\n\n" +
                     "➖ 橫濱紅磚倉庫 : 橫濱聖誕市集 \n\n" +
                     "➖ 橫濱PORTA: 前往其他購物商城如「Yokohama Sky Building」、「丸井CITY橫濱」、「SOGO橫濱店」時的中繼站\n\n" +
                     "➖ (20:30) LUMINE橫濱:集結各大年輕時尚品\n\n" +
                     "➖ (20:30) 丸井CITY橫濱: 流行服飾、雜貨等商品為主，還有「Pokémon Center」！\n\n" +
                     "➖ (20:00) SOGO橫濱店:設有LoFt、紀伊國屋書店、無印良品等\n\n" +
                     "➖ (22:00) BAY QUARTER YOKOHAMA: 「海港」風情的百貨商城\n\n",
-            "file": "image\\day2_evening"           
+            "file": "image\\day2_evening"
         },
         "return": {
             "attraction": "返回飯店",
@@ -328,7 +328,7 @@ itinerary = {
                     "➖ 澀谷Mark City: 有多樓層的購物和餐飲中心，地下層設有直通澀谷站的美食廣場。\n\n" +
                     "➖ MEGA唐吉訶德 澀谷本店 : 東京都內最大的驚安殿堂，24小時營業，店面超大、商品更多\n\n" +
                     "➖ 澀谷PARCO :「澀谷PARCO」首家任天堂、寶可夢旗艦店進駐\n\n" +
-                    "➖ 青の洞窟 SHIBUYA - DAY＆NIGHT: 澀谷青之洞窟點燈企劃從2014年開始在中目黑實施，2016～2019年移師至澀谷。\n\n"                   
+                    "➖ 青の洞窟 SHIBUYA - DAY＆NIGHT: 澀谷青之洞窟點燈企劃從2014年開始在中目黑實施，2016～2019年移師至澀谷。\n\n"
                 ,
             "file": "image\\day4_evening"
         },
@@ -339,7 +339,7 @@ itinerary = {
             "description": 
                 "景點:\n\n" +
                     "➖ 東京車站點燈: 丸之內香檳金樹步道\n\n" +
-                    "➖ 馬力歐點燈活動: https://www.marunouchi.com/pickup/event/4432/\n\n" +                   
+                    "➖ 馬力歐點燈活動: https://www.marunouchi.com/pickup/event/4432/\n\n" +
                     "➖ Garden Terrace: 新丸之內大樓7樓露台\n\n" +
                     "➖ KITTE: KITTE商場6樓的屋頂庭園\n\n"
                ,
@@ -376,7 +376,7 @@ itinerary = {
                     "目利的銀次 ➖ 提供新鮮海鮮和創意料理\n\n"
                 "預計住宿: 12-18 - 12-19，1晚\n\n"
                 ,
-            "file": "image\\day5_morning"           
+            "file": "image\\day5_morning"
         },
         "afternoon": {
             "attraction": "偕樂園",
@@ -392,7 +392,7 @@ itinerary = {
                     "➖ 常磐神社: 供奉水戶藩主德川光圀（即水戶黃門）和德川齊昭。神社內的義烈館展示了與水戶黃門相關的歷史文物。\n\n" +
                     "➖ 茨城縣近代美術館: 收藏了明治時期以來的多件藝術作品。\n\n"
                 ,
-            "file": "image\\day5_afternoon"           
+            "file": "image\\day5_afternoon"
         },
         "evening": {
             "attraction": "大洗",
@@ -408,7 +408,7 @@ itinerary = {
                     "➖ 大洗海洋塔: 高達60米，以其獨特的三角形玻璃外觀而聞名。塔內設有觀景台、餐廳和商店，提供多元的觀光體驗。\n\n" +
                     "➖ 大洗 SEASIDE STATION: 大洗町的海濱購物中心，於 2018 年重新開幕，成為當地的潮流地標。商場分為兩層樓，匯集多家商店和餐廳，提供多樣化的購物與美食選擇。\n\n"
                 ,
-            "file": "image\\day5_evening"           
+            "file": "image\\day5_evening"
         },
         "return": {
             "attraction": "返回飯店",
@@ -428,7 +428,7 @@ itinerary = {
                 "景點:\n\n" +
                     "➖ 石岡老街: 昭和時代風情的老街，保留了許多融合洋風與和風特色的「看板建築」\n\n"
                 ,
-            "file": "image\\day6_morning"           
+            "file": "image\\day6_morning"
         },
         "afternoon": {
             "attraction": "茨城機場",
