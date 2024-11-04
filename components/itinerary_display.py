@@ -25,8 +25,6 @@ def display_itinerary(date):
                 st.write(f"⏰ 停留時間：{details['duration']}")
             if "transport" in details:
                 st.write(f"🚕 {details['transport']}")
-            if "return" in details:
-                st.write(f"🏨 返回飯店：{details['return']}")
 
             if "description" in details:
                 with st.expander("✨ 詳細介紹", expanded=True):
