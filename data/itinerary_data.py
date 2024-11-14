@@ -187,8 +187,8 @@ itinerary = {
         "morning": {
             "attraction": "清澄白河",
             "start_time": "08:00",
-            "end_time": "14:00",
-            "duration": "5 小時",
+            "end_time": "12:00",
+            "duration": "4 小時",
             "transport": "交通：飯店 ➖ 京急蒲田 14分鐘 ➖ (轉車) 大江戶線 大門（東京） 14分 ➖ 清澄白河站",
             "description": 
                 "景點:\n\n" +
@@ -200,17 +200,17 @@ itinerary = {
                     "➖➖ 於1995年開館。MOT的主要任務是展示及推廣20世紀後半至當代的日本與國際現代藝術作品，" +
                         "館內收藏豐富，包括繪畫、雕塑、影像、裝置藝術等多樣藝術形式。\n\n" +
                     "➖➖ 購票資訊: https://www.mot-art-museum.jp/guide/museum-info/ \n\n" +
-                "午餐: \n\n" +
+                "美食: \n\n" +
                     "割烹 みや古: 這家餐廳以正宗的深川飯聞名，深川飯是東京的鄉土料理之一。\n\n" +
                     "九吾郎wine table:  這家餐廳由主廚親自前往築地市場挑選當季食材，製作日式料理，並提供多種精選葡萄酒。",
             "file": "day3_morning"
         },
         "afternoon": {
             "attraction": "神樂坂",
-            "start_time": "14:00",
-            "end_time": "17:00",
-            "duration": "3 小時",
-            "transport": "交通：吉祥寺 ➖ 中央‧總武線 各站停車東西線 經由西船橋 12分鐘 ➖ 神樂坂 ➡➡ 東京大神宮 ➡➡ 靖國神社",
+            "start_time": "12:00",
+            "end_time": "16:00",
+            "duration": "4 小時",
+            "transport": "交通：清澄白河站 ➖ 大江戶線 兩國/春日方面 18分鐘 ➖ 牛込神樂坂車站 ➡➡ 神樂坂 ➡➡ 東京大神宮 ➡➡ 靖國神社",
             "description": 
                 "景點:\n\n" +
                     "➖ 神樂坂: 神樂坂是東京少數保留法式與日式混合風情的小巷\n\n" +
@@ -227,8 +227,8 @@ itinerary = {
         },
         "evening":{
             "attraction": "秋葉原",
-            "start_time": "17:00",
-            "end_time": "21:00",
+            "start_time": "16:00",
+            "end_time": "20:00",
             "duration": "4 小時",
             "transport": "交通：九段下 ➖ 新宿線 本八幡 3分鐘 ➖ 小川町（東京） ➡➡ 秋葉原",
             "description":
@@ -248,7 +248,7 @@ itinerary = {
         },
         "return": {
             "attraction": "返回飯店",
-            "start_time": "22:30",
+            "start_time": "20:00",
             "transport": "秋葉原 ➖ 山手線 東京/品川方面(外環線) 17分➖ (轉車) 品川 京急本線 11分 ➖ 京急蒲田 ➡➡ 飯店",
         }          
     },
